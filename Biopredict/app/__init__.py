@@ -8,7 +8,7 @@ Main script for the API.
 There were plans for a web based interface, this is not implemented and it's currently too late to remove the plans for it. (11-jun-2020, 23:33)
 """
 from flask import Flask, render_template, request
-from .scripts.mongodb_connection import connector_backup, connector
+from .scripts.mongodb_connection import connector
 
 app = Flask(__name__)
 
