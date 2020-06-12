@@ -1,0 +1,21 @@
+I spend about 4-5 hours trying to get the MongoDB working, I don't know what the things in docker-compose.yml all do,
+I spend too long on it to understand it. The MongoDB seeding is from:
+https://stackoverflow.com/questions/31210973/how-do-i-seed-a-mongo-database-using-docker-compose
+With some inspriration and testing from:
+https://stackoverflow.com/questions/45935912/seed-mongodb-inside-a-docker-container
+
+Basic documentation in the code due to limited time.
+
+connector.py, in /Connector/, connects to the API and parses through a .json file and retrieves all the items in that file.
+It stores them in another file with a similar name. 'json_format.txt' shows the format the .json file needs to be,
+aswell as a basic example. The example doesn't return anything useful though.
+
+Scripts used to create the .json for the MongoDB are found in /VCF_Scripts/.
+
+To build the containers, use docker-compose up --build in this folder.
+I know I spelt BioProdict as Biopredict, but I'm working on an external linux desktop connected with ssh. FileZilla broke for me
+for some reason and I can't be asked to change the folder name with linux commands. Most of the editing of scripts and debugging 
+was done with nano because of that aswell.
+
+- Thijs Weenink
+

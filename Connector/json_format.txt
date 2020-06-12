@@ -1,0 +1,47 @@
+Below is the format the .json file need to be.
+
+{
+  chromosome_number:
+  {
+    location: variance,
+    location: variance,
+    location: variance,
+    location: variance,
+    location: variance
+    },
+  chromosome_number:
+  {
+    location: variance,
+    location: variance,
+    location: variance,
+    location: variance,
+    location: variance
+    }
+}
+
+For example: 
+
+{
+  "1":
+  {
+    "1": "A",
+    "2": "T",
+    "4": "G",
+    "8": "A",
+    "16": "C",
+    "32": "C",
+    "64": "C"
+    },
+  "2":
+  {
+    "1": "A",
+    "2": "T",
+    "4": "G",
+    "8": "A",
+    "16": "C",
+    "32": "C",
+    "64": "C",
+    "128": "G",
+    "256": "G"
+    }
+}

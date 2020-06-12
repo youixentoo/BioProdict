@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <h2>Bio-Prodict Chromosome Variant API</h2>
+    <hr>
+    <div>
+        <h3>This is page only shows information about the single argument url based api.</h3>
+        <br>
+        <b>Usage of the API:</b><br>
+        Format: 
+        <br>
+        chr=&loc=&var=
+        <br>
+        chr: Chromosome, loc: Location, var: Variance
+        <br><br>
+        <b>Example usage:</b>
+        <br>
+        /api?chr=7&loc=195751&var=A
+        <br><br>
+        <p>Usage of the url based api returns json.</p>
+        <br>
+        <p>Errors are represented as raw text</p>
+    </div>
+{% endblock %}
