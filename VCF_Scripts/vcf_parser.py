@@ -42,8 +42,8 @@ def parse(json_filename, vcf_file):
 
         
         # Testing only
-        if amount > 6:
-            break
+        # if amount > 6:
+            # break
     
     total_data = index+1    
     
